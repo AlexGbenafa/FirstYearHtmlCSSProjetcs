@@ -1,0 +1,9 @@
+body{
+    background-image: url("../img/bg2.jpeg");
+    background-size: cover;
+    color: whitesmoke;
+}
+
+body h1{
+    background-color: rgba(131, 145, 167, 0.897);
+}

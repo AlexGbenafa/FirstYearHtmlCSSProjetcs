@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(57, 150, 179, 0.808);
+}
+
+.tete{
+    background-color: rgba(179, 179, 179, 0.781);
+}
+
+.anime{
+    position: absolute;
+    right: 650px;
+}
+
+footer{
+    background: rgba(179, 179, 179, 0.781);
+}
+
+hr{
+    background-color: red;
+}
