@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<html lang="fr">
+    <head>
+        <title>Formulaire</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/formulaire.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <p>
+                Les formulaires sont des outils d'interractions par excellence avec l'utilisteur.
+                <br/>
+                Ils permettent de recuperer des informations, d'autoriser les connexions et inscriptions.      
+            </p>
+        </div>
+
+        <div class="formulaire">
+            <div class="form">
+                <form action="#" method="post" oninput="x.value = parseInt(a.value) + parseInt(b.value)">
+                    0
+                    <input type="range" id="a" name="a" value="50">
+                    50+
+                    <input type="number" id="b" name="b" value="50">
+                    =
+                    <output name="x" for="a b"></output>
+
+                    <fieldset>
+                        <legend>Informations personnelle</legend>
+
+                        <div class="space">
+                            <input type="radio" name="cours" id="cours" value="cours">
+                            <label for="cours">Cours</label>
+
+                            <input type="radio" name="cours" id="TPE" value="TPE">
+                            <label for="TPE">TPE</label>
+                        </div>
+
+                        <div class="space">
+                            <label for="couleur">
+                                Selectionnez votre couleur favorite:
+                            </label>
+                            <input type="color" id="color" name="favcolor">
+                        </div>
+
+                        <div class="space">
+                            <label for="nom">
+                                Nom d'utilisateur:
+                            </label>
+                            <input type="text" name="nom" id="Nom_utilisateur" placeholder="Veuillez entrer votre nom" required="true" />
+                        </div>
+
+                        <div class="space">
+                            <label for="mail">
+                                E-mail:
+                            </label>
+                            <input type="email" name="mail" id="email" placeholder="exemple@site.com" required/>
+                        </div>
+
+                        <div class="space">
+                            <label for="mail">
+                                Mot de passe:
+                            </label>
+                            <input type="password" name="motdepasse" id="motdepasse" placeholder="Mot de passe" required/>
+
+                        
+                        <div class="space">
+                            <label for="birthday">
+                                Date de naissance:
+                            </label>
+                            <input type="date" name="maxdate" id="birthday">
+                        </div>
+                    </fieldset>
+
+                    <div class="space">
+                        <label for="message">
+                            Votre message:
+                        </label>
+                        <textarea id="Votre_message" name="message" required></textarea>
+                    </div> 
+
+                    <div class="space">
+                        <label for="voiture_1">
+                            Ford
+                        </label>
+                        <input type="checkbox" name="voiture_1" id="voiture_1" value="Ford"/>
+
+                        <label for="voiture_2">
+                            Mercedes
+                        </label>
+                        <input type="checkbox" name="voiture_2" id="voiture_2" value="Mecedes"/>
+
+                        <label for="voiture_3">
+                            Mistsubichi
+                        </label>
+                        <input type="checkbox" name="voiture_3" id="voiture_3" value="Mistsubichi"/>
+                    </div>
+
+                    <div class="space">
+                        <label for="Voitures">
+                            Choisissez votre marque de voiture: 
+                        </label>
+                        <select id="Voitures" name="Voitures" size="1" multiple>
+                            <option value="selection">Selectionnez une marque</option>
+                            <option value="toyota">Toyota</option>
+                            <option value="ford">Ford</option>
+                            <option value="mercedes" selected>BMW</option> 
+                            <option value="mercedes">Nissan</option>
+                        </select>
+                    </div>
+                    
+                    <div class="bouton">
+                        <div class="space">
+                            <button type="submit" >
+                                Soumettre
+                            </button>
+                        </div>
+                        <div class="space">
+                            <button type="reset">
+                                Réinitialiser
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </body>
+
+
+
+
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-color: antiquewhite;
+}
+
+.header{
+    text-align: center;
+    background-color:burlywood;
+}
+
+.space{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.bouton{
+    display: flex;
+}
+
+.formulaire{
+    border: burlywood ;
+    margin: 400px;
+    margin-top: 20px;
+    width: 500px;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
